@@ -26,7 +26,7 @@ public class Main
     public static void main(String[] args)
     {
         Runtime rt = Runtime.instance();
-        rt.setCloseVM(true);
+        //rt.setCloseVM(true);
         System.out.println("runtime created");
 
         Profile profile = new ProfileImpl(null, 1200, null);
